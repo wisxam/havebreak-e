@@ -9,7 +9,7 @@
 <body>
 
   <header>
-    <h1>Project Name</h1>
+    <h1>Project Name: Havebreak Ecommerce</h1>
     <p>A modern ecommerce application built with Next.js, TypeScript, and NextAuth</p>
   </header>
 
