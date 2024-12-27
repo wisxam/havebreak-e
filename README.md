@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Name - README</title>
 </head>
 
 <body>
 
   <header>
-    <h1>Project Name: Havebreak-e</h1>
+    <h1>Project Name</h1>
     <p>A modern ecommerce application built with Next.js, TypeScript, and NextAuth</p>
   </header>
 
@@ -67,12 +68,43 @@
 
   <section>
     <div class="content">
+      <h2>How to Use</h2>
+      <p>To run this project locally, you need to set up your environment variables in a `.env` file. Below are the steps to follow:</p>
+      <ul>
+        <li>1. Clone the repository to your local machine.</li>
+        <li>2. Install the required dependencies by running:
+          <code>npm install</code> or <code>yarn install</code>
+        </li>
+        <li>3. Create a `.env` file in the root directory of the project.</li>
+        <li>4. Add the following environment variables to your `.env` file:</li>
+      </ul>
+      <pre>
+NEXT_PUBLIC_API_BASE_URL
+DATABASE_URL="postgresql
+NEXTAUTH_SECRET
+NEXTAUTH_URL
+SECRET_KEY
+      </pre>
+      <ul>
+        <li>5. Ensure that your PostgreSQL database is set up and running locally with the correct credentials.</li>
+        <li>6. Start the development server by running:
+          <code>npm run dev</code> or <code>yarn dev</code>
+        </li>
+        <li>7. Open <code>http://localhost:3000</code> in your browser to access the application.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="content">
       <h2>Note</h2>
       <p>Fake payment functionality, product updates, and cart management are achievable in this app, but were not implemented in this example. You can expand these features as needed.</p>
     </div>
   </section>
 
-
+  <footer>
+    <p>© 2024 Project Name. All Rights Reserved.</p>
+  </footer>
 
 </body>
 
