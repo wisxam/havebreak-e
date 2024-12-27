@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name - README</title>
 </head>
 
 <body>
 
   <header>
-    <h1>Project Name</h1>
+    <h1>Project Name: Havebreak-e</h1>
     <p>A modern ecommerce application built with Next.js, TypeScript, and NextAuth</p>
   </header>
 
@@ -73,9 +72,7 @@
     </div>
   </section>
 
-  <footer>
-    <p>© 2024 Project Name. All Rights Reserved.</p>
-  </footer>
+
 
 </body>
 
