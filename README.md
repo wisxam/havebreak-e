@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name - README</title>
 </head>
 
 <body>
@@ -15,7 +14,7 @@
   </header>
 
   <section>
-    <div class="content">
+    <div>
       <h2>About the Project</h2>
       <p>This is an ecommerce project built with a modern tech stack. It integrates Next.js for server-side rendering, React Query for data fetching, and NextAuth for authentication using JWT tokens. The application features a clean UI with TailwindCSS, providing a smooth and dynamic user experience.</p>
     </div>
@@ -80,7 +79,7 @@
       </ul>
       <pre>
 NEXT_PUBLIC_API_BASE_URL
-DATABASE_URL="postgresql
+DATABASE_URL
 NEXTAUTH_SECRET
 NEXTAUTH_URL
 SECRET_KEY
@@ -102,9 +101,6 @@ SECRET_KEY
     </div>
   </section>
 
-  <footer>
-    <p>© 2024 Project Name. All Rights Reserved.</p>
-  </footer>
 
 </body>
 
