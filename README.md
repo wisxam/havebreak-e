@@ -97,7 +97,7 @@ SECRET_KEY
   <section>
     <div class="content">
       <h2>Note</h2>
-      <p>Fake payment functionality, product updates, and cart management are achievable in this app, but were not implemented in this example. You can expand these features as needed.</p>
+      <p>Fake payment functionality, product updates, and cart management are achievable in this app, but were not implemented in this example.</p>
     </div>
   </section>
 
